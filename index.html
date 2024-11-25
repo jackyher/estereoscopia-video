@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="icon" href="img/icon.png" type="img/png">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Vídeos Anaglifos</title>
+</head>
+<body>
+    <nav class="navbar navbar-light navbar-custom fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand">
+                <img src="img/icon.png" alt="Logo" width="40" height="30" class="d-inline-block align-text-top"/>
+                <span class="nav-title">Estereoscopia en vídeo</span>
+            </a>
+        </div>
+    </nav>
+
+    <header>
+        <h1 class="fs-3 text-center">Vídeos Estereoscópicos</h1>
+    </header>
+
+    <div class="container-personal">
+        <h2 class="title underline">Personal</h2>
+        <div class="section-videos">
+            <div class="section-videos-absolute">
+                <video src="img/personal-izquierda.mp4" autoplay loop controls muted type="video/mp4" id="videoLeft" class="videoOriginal"></video>
+                <p class="p-absolute">Original Left</p>
+            </div>
+
+            <div class="section-videos-absolute">
+                <video src="img/personal-der.mp4" autoplay loop controls muted type="video/mp4" id="videoRight" class="videoOriginal"></video>
+                <p class="p-absolute">Original Right</p>
+            </div>
+
+        </div>
+        <div class="original">
+            <h3><span>Original</span></h3>
+        </div>
+        <section>
+            
+
+            <div class="swiper-btns">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <h3><span><small>Punto Focal</small>Cercano</span></h3>
+                        <div class="slider-video">
+                            <video src="img/personal-cercano.mp4" type="video/mp4"></video>
+                        </div>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <h3><span><small>Punto Focal</small>Medio</span></h3>
+                        <div class="slider-video">
+                            <video src="img/personal-medio.mp4" type="video/mp4"></video>
+                        </div>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <h3><span><small>Punto Focal</small>Lejano</span></h3>
+                        <div class="slider-video">
+                            <video src="img/personal-lejano.mp4" type="video/mp4"></video>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </section>
+    </div>
+
+    <div class="container-personal">
+        <h2 class="title underline">Elementos en movimiento</h2>
+
+        <div class="section-videos">
+            <div class="section-videos-absolute">
+                <video src="img/objetos-izquierda.mp4" autoplay loop controls muted type="video/mp4" id="videoLeftMovimiento" class="videoOriginal"></video>
+                <p class="p-absolute">Original Left</p>
+            </div>
+
+            <div class="section-videos-absolute">
+                <video src="img/objetos-der.mp4" autoplay loop controls muted type="video/mp4" id="videoRightMovimiento" class="videoOriginal"></video>
+                <p class="p-absolute">Original Right</p>
+            </div>
+
+        </div>
+
+        <section>
+            <div class="swiper-btns">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <h3><span><small>Punto Focal</small>Cercano</span></h3>
+                        <div class="slider-video">
+                            <video controls src="img/elemento-cercano.mp4" type="video/mp4"></video>
+                        </div>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <h3><span><small>Punto Focal</small>Medio</span></h3>
+                        <div class="slider-video">
+                            <video controls src="img/elemento-medio.mp4" type="video/mp4"></video>
+                        </div>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <h3><span><small>Punto Focal</small>Lejano</span></h3>
+                        <div class="slider-video">
+                            <video controls src="img/elemento-lejano.mp4" type="video/mp4"></video>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="container-personal">
+        <h2 class="title underline">Recorrido</h2>
+        <div class="section-videos">
+            <div class="section-videos-absolute">
+                <video src="img/recorrido-izquierda.mp4" autoplay loop controls muted type="video/mp4" id="videoLeftRecorrido" class="videoOriginal"></video>
+                <p class="p-absolute">Original Left</p>
+            </div>
+
+            <div class="section-videos-absolute">
+                <video src="img/recorrido-der.mp4" autoplay loop controls muted type="video/mp4" id="videoRightRecorrido" class="videoOriginal"></video>
+                <p class="p-absolute">Original Right</p>
+            </div>
+
+        </div>
+        <section>
+            <div class="swiper-btns">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <h3><span><small>Punto Focal</small>Cercano</span></h3>
+                        <div class="slider-video">
+                            <video controls src="img/recorrido-cercano.mp4" type="video/mp4"></video>
+                        </div>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <h3><span><small>Punto Focal</small>Medio</span></h3>
+                        <div class="slider-video">
+                            <video controls src="img/recorrido-medio.mp4" type="video/mp4"></video>
+                        </div>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <h3><span><small>Punto Focal</small>Lejano</span></h3>
+                        <div class="slider-video">
+                            <video controls src="img/recorrido-lejano.mp4" type="video/mp4"></video>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <footer class="footer container mt-4">
+        <div class="container text-center">
+            <p style="font-size: 0.85rem;">&copy; 2024 Todos los derechos reservados. Jacqueline Hernández.</p>
+        </div>
+    </footer>
+
+    
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/reproducirOriginal.js"></script>
+
+</body>
+</html>
